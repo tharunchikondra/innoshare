@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="faq's.css">
+    <title>FAQ's</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: url('https://chemonics.com/wp-content/uploads/2022/04/2022_4_21_2022_Behr_Innovation-1920x960.jpg')no-repeat center center/cover;
+    font-weight: 1000;
+    color: white;
+    height: 750px;
+}
+
+body h1{
+    font-weight: bolder;
+}
+header::before {
+    content: " ";
+    /* background: url('../front.png')no-repeat center center/cover; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.left {
+    border: 2px solid green;
+    display: inline-block;
+}
+
+.mid {
+    /* height: 160px; */
+    /* border: 2px solid yellow; */
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin: 20px 60px;
+}
+.mid ul li a{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.navigation{
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 833px;
+    /* display: flex; */
+    padding: 20px 34px;
+    height: 23px;
+}
+
+.navigation li a{
+    color: black;
+}
+.item:hover {
+    transform: scale(1.3);
+}
+
+li {
+    font-size: 20px;
+    list-style: none;
+    margin: 0px;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+.think{
+    display: block;
+    position: absolute;
+    right: 0;
+}
+
+.container{
+    margin: 75px 10px;
+}
+.main{
+    display: flex; 
+    /* flex-direction: column;  */
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    display: block;
+    position: relative;
+    top: 9%;
+    left: 0;
+}
+
+.question-container{
+    display: flex;
+    flex-direction: row;
+    margin: 22px 0px;
+}
+
+.answer-container{
+    margin: 10px 40px;
+    font-size: 20px;
+    width: 700px;
+}
+    </style>
+</head> 
+<body>
+    <header>
+        <!-- <div class="left">
+            I am left
+        </div> -->
+        <div class="mid">
+            <nav>
+                <ul class="navigation">
+                    <li class="item"><a href ='index.html'>Home</a></li>
+                    <li class="item"><a href ='about.html'>About</a></li>
+                    <li class="item"><a href ='contact.html'>Contact</a></li>
+                    <li class="item"><a href ='faq.html'>Faq's</a></li>
+                    <li class="item"><a href ='login.html'>Login</a></li>
+                    <li class="item"><a href ='signup.html'>Signup</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1 class="main">These are the frequently asked questions by our customers</h1>
+    <img src="https://o.remove.bg/downloads/d0dd1ee6-e793-4484-b165-447acf516dbc/people-thinking-to-make-decision-problem-solving-and-find-creative-ideas-with-question-mark-in-flat-cartoon-background-for-poster-illustration-2HWNNCN-removebg-preview.png" alt="" class="think">
+    <div class="container">
+        <div class="question-container">
+            <h1>Q:</h1>
+            <h1>Who are eligible to use this website?</h1>
+        </div>
+        <div class="answer-container">
+            <p>This is specially a platform made for the students to encourage the entrepreneual mindset in them. But anyone can use this website with an idea in their mind and hoping for a financial support or educational support. </p>
+        </div>
+        <div class="question-container">
+            <h1>Q:</h1>
+            <h1>How does this work?</h1>
+        </div>
+        <div class="answer-container">
+            <p>This is just a platform betweeen you and the companies/Institues which are willing to invest in the innovative ideas. Simply Innoshare gathers all the information about the Institutes and the companies that is about the process and the main persons in the specified organizations
+                <br>
+            You can just Login here have the information you all need and contact the information based on your needs
+            </p>
+        </div>
+        <div class="question-container">
+            <h1>Q:</h1>
+            <h1>Should we pay anything?</h1>
+        </div>
+        <div class="answer-container">
+            <p>NO. This website is completely free, unless you wanted to donate some...</p>
+        </div>
+        <div class="question-container">
+            <h1>Q:</h1>
+            <h1>Is this a genuine platform?</h1>
+        </div>
+        <div class="answer-container">
+            <p>Yes absolutely, because you are not going to loss anything, Infact you will take the information you need, and you don't pay anything or your details will not be leaked anywhere.
+                So, this is the great and genuine for sure...
+            </p>
+        </div>
+    </div>
+</body>
+</html>
